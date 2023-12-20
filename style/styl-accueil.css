@@ -1,0 +1,153 @@
+.photos{   
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  justify-content: center; 
+  gap: 5px;  
+  }
+  .photos .ba{
+    width: 365px;
+    height: 300px;
+  }
+ 
+  .mere h2 {
+    color: #242424;
+    text-align: center;
+    margin-bottom: 20px; 
+  } 
+  .mere{
+    background-color: white; 
+    width: auto;    
+  } 
+  .sec1{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .haut{
+    flex-grow: 1;
+    flex-basis: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  } 
+  .sec1 h1 {
+    display: flex;
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+  }
+  .sec1 .div{
+    width: 180px;
+    text-align: center;
+    height: 24px;  
+  }
+  .sec1 p {
+     
+    margin-bottom: 40px;
+    margin-left: 18px;
+    padding: auto;
+  }
+  .div a{
+    color: white;
+  } 
+  .nom-mail {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .form-colon{
+    flex: 1;
+    display: flex;
+    flex-direction: column;  
+  }
+  
+  input,
+  textarea {
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+  } 
+  .section-contact h2{ 
+    color:  #a5b4fc;
+    text-align: center;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+  }
+   
+  nav .logo{
+    margin-top: -10px;  
+    margin-left: 40px;
+} 
+  label{
+    margin-top: 20px;
+  } 
+  input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+  } 
+.profil{
+    display: flex;
+    width: 400px;
+    height: 400px;   
+}  
+ @media screen and (max-width:560px){
+  .sec1 .div{
+    width: 100px;
+    font-size: small; 
+  } 
+    .sec1 h1 { 
+      font-size: 1em; 
+    } 
+  .profil{ 
+    width: 200px;
+    height: 300px;   
+  } 
+  .sec1{
+    display: flex; 
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+  } 
+  
+  .photos .ba{ 
+    width: 250px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    padding: auto;
+    color: white;
+  }
+  input[type='submit'] {
+    width: 100px;
+    margin: auto;
+    margin-top: 30px;
+  } 
+  .nom-mail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  textarea {
+    padding: 20px;
+    margin: 15px;
+    border-radius: 3px;
+    border: none; 
+  }
+  label[for="message"]{
+    margin-top: 20px;
+    margin-left: 20px;
+  }  
+}

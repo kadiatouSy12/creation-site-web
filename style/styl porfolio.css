@@ -1,0 +1,65 @@
+  
+  .porfolio{
+    background-color: white; 
+    padding-top: 30px; 
+    width: auto;
+    border: none;
+  }  h1{ 
+    padding-top: 40px;
+    padding-bottom: 50px; 
+  }  
+  .paysage{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    justify-content: center; 
+    gap: 5px;  
+  } 
+  .portraits {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    justify-content: center;
+    gap: 5px;  
+  } 
+  .thierno{
+    width: 385px; 
+    height: 360px;
+  }
+  .lien-conteneur-photo {
+    position: relative;
+  } 
+  .photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+  }  
+  nav .logo{
+      margin-top: -10px;  
+      margin-left: 40px;
+  }
+  footer .logo{
+    margin-left: -35px;
+    padding-right: 20px;
+    margin-left: 18px;
+  }
+  .lien-conteneur-photo:hover .photo-hover {
+    display: flex;
+  }  
+  @media screen and (max-width:560px){
+    h1{  
+      padding-bottom: 50px; 
+      font-size: 1em;
+    } 
+    .thierno{
+      width: 300px; 
+      height: 250px;
+    }
+  }
